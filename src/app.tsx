@@ -3,8 +3,6 @@ type appProps = {
 };
 
 export const App = ({ message }: appProps) => {
-	console.log(message);
-
 	if (true) {
 		return <div>{message}</div>;
 	}
