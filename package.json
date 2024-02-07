@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"lint-fix": "eslint --cache --fix ./src/**/*.{js,ts,jsx,tsx} && prettier --write ./src/**/*.{js,ts,jsx,tsx}"
+		"lint-fix": "eslint --cache --fix ./src/**/*.{js,ts,jsx,tsx} && prettier --write ./src/**/*.{js,ts,jsx,tsx}",
+		"prepare": "husky install"
 	},
 	"keywords": [],
 	"author": "",
